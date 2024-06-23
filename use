@@ -1,1 +1,5 @@
+apt install gcc libc6-dev libsodium-dev make autoconf
+./autogen.sh
+./configure
+make
 ./mkp224o filter fast -t 4 -v -n 4 -d ~/Extracts
